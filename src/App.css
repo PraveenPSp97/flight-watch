@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.map-container{
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.header-container{
+  height:2rem
+}
+.flight-details-container ,.flight-details-header,.flight-details-footer{
+  /* border: 1px solid #ccc; */
+  padding: 0.2rem;
+  width: 500px;
+  
+}
+.flight-details-container{
+  margin: 0;
+  padding: 0;
+}
+.flight-details-header{
+  background-color: #363b46;
+  color: aliceblue;
+  border-radius: 5px;
+  width: 500px;
+  margin: 0;
+}
+
+.leaflet-popup-content-wrapper,.leaflet-pane, .leaflet-popup-pane,.leaflet-popup ,.leaflet-popup-content{
+  
+  padding: 0;
+  margin: 0;
+ 
+}
+.leaflet-popup-content-wrapper{
+  padding: 0;
+  margin: 0;
+}
+
+.flight-details-body{
+  padding: 5px;
+  color: #000000;
+}
+
+
+.leaflet-popup-content-wrapper  {
+  width: 500px;
+}
+
+.tr{
+  text-align: right;
+}
+
+.fligt-details-content{
+  padding: 5px;
+}
+.flight-details-colmn{
+  width: 250PX;
+  padding: 5px;
+}
+.flight-details-footer{
+  padding: 5px;
+  background-color: #e6e5e5;
+}
+
+.flight-icon{
+  
+  transform: rotate(90deg)
+}
+
+ul{
+  display: flex;
+  float: left;
+  justify-content: space-between;
+}
+
+li{
+  list-style: none;
+}
+
+.searchElement{
+  display: flex;
+  justify-content: center;
+  margin-top:5px;
+  background-color:white;
+  border-radius: 5px;
+  
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.footer{
+  background-color: #e6e5e5;
+  display: flex;
+  padding: 2px;
+}
+
+.leaflet-popup-close-button{
+  color: rgb(255, 255, 255);
+}

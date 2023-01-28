@@ -1,0 +1,43 @@
+{"flightInfo":[{
+    "flightId":1,
+    "flightNo":1234,
+    "carrierCode":"X1",
+    "departureStation":"ABC",
+    "arrivalStation":"XYZ",
+    "scheduledDeparture":"11:30",
+    "actualDeparture":"11:35",
+    "scheduledArrival":"12:45",
+    "aircraftType":"A20N",
+    "registration":"VT-ITN",
+    "position":[57.505, -0.09],
+    "angle":60
+},{
+    "flightId":2,
+    "flightNo":1235,
+    "actualDeparture":"11:35",
+    "carrierCode":"U2",
+    "departureStation":"ABC",
+    "arrivalStation":"XYZ",
+    "scheduledDeparture":"11:30",
+    "scheduledArrival":"12:45",
+    "aircraftType":"A20N",
+    "registration":"VT-ITN",
+    "position":[51.505, -0.09],
+    "angle":45
+},
+{
+    "flightId":3,
+    "flightNo":1265,
+    "actualDeparture":"11:35",
+    "carrierCode":"U2",
+    "departureStation":"ABC",
+    "arrivalStation":"XYZ",
+    "scheduledDeparture":"11:30",
+    "scheduledArrival":"12:45",
+    "aircraftType":"A20N",
+    "registration":"VT-ZYL",
+    "position":[68.505, -0.09],
+    "angle":45
+}]
+    
+}
