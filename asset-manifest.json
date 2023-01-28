@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/flight-watch/static/css/main.a5759567.css",
+    "main.js": "/flight-watch/static/js/main.38e8019a.js",
+    "static/js/787.69703d39.chunk.js": "/flight-watch/static/js/787.69703d39.chunk.js",
+    "static/media/flight.png": "/flight-watch/static/media/flight.4ea07edaf2c3cfabbc42.png",
+    "static/media/logo.svg": "/flight-watch/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/flight-watch/index.html",
+    "main.a5759567.css.map": "/flight-watch/static/css/main.a5759567.css.map",
+    "main.38e8019a.js.map": "/flight-watch/static/js/main.38e8019a.js.map",
+    "787.69703d39.chunk.js.map": "/flight-watch/static/js/787.69703d39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5759567.css",
+    "static/js/main.38e8019a.js"
+  ]
+}
